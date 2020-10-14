@@ -1,0 +1,37 @@
+file [file path]: This is telling the debugger that you are going to specify the file/executeable to debug.
+
+backtrace or bt: Tells the debugger to print the current call stack.
+
+run or r: This runs the program within the debugger.
+
+list or l: This prints 10 lines of the source code, centered on main(). Upon entering again, it will print the next 10 lines.
+
+help or h [command]: This lets you specify a command that you want to read the manual about.
+
+break or b [line number]: This will pause the program at the specified line number.
+
+continue or c: This will continue running the program until the next breakpoint is hit.
+
+step or s: This will execute the next line of code and pause again.
+
+bt full: This will print the current call stack as well as the values of local variables.
+
+print or p [variable name]: This will print the value of the variable specified.
+
+frame: Thi prints the current frame of the backtrace.
+
+kill: Stops running the program currently bring debugged while rpeserving breakpoints.
+
+next: Executes the next line of code but skips functions.
+
+info b: This prints a list of all breakpoints.
+
+disable/enable [breakpoint number]: Disables or enables the specified breakpoint.
+
+delete [breakpoint number]: Deletes the specified breakpoint.
+
+watch [variable name]: This prints the values of the specified variable as it changes.
+
+conditional breakpoint: A conditional breakpoint enables/disable itself depending on a condition set by the user. To use one 
+simply specify the condition after declaring the breakpoint. Next time it is run the breakpoint will be enabled only if the 
+condition is met.

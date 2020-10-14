@@ -1,0 +1,26 @@
+Donovan Griego
+10-01-2020
+Lab 4
+
+Purpose: To experiment with the GNU debugger and use it to find and fix bugs within programs.
+
+Conclusions:
+
+a) What I learned from this lab:
+I learned how to utilize the GNU debugger to find bugs within programs so 
+that I may fix them. This is useful in the real world because debugging bigger 
+and more complex programs will require keeping track of various variables and 
+figuring out what is wrong. Therefore, this lab was very informative and it 
+taught me a lot that I can use in the future.
+
+b) How did the pair programming help/hinder the lab:
+Pair: This helped me debug the sorting algorithms because I got an idea of what 
+the program is supposed to do. Working with different sorting algorithms enabled me 
+to see these bugged programs from another point of view. This was helpful.
+
+c) Issues and how I fixed them (bug report):
+I fiex the bugged programs by debugging them using the GNU debugging method.
+
+d) Improvements that can be made:
+In the future, I think get a better grasp on how to use the debugger in other ways 
+such as conditional breaks.

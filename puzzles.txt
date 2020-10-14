@@ -1,0 +1,50 @@
+1.) x=2 y=1 z=1
+    x=2 y=2 z=1
+    x=2 y=2 z=2
+    x=0 y=-1 z=0
+    x=0 y=0 z=-1
+    x=0 y=-1 z=-1
+
+2.) On line 13 there is a "-" in the function name. This will generate an error when compiling since this is not allowed.
+
+3.) This program will print out a single 1 and then nothing else because it will first executes once then will stop since 
+it only executes "while(false)"
+
+4.) The output is going to be "f is NOT 1.0" because the variable f was instantiated as 0.0 outside of the for loop, but 
+since any changes to it were made inside, this does not affect the actual value. Therefore it is always 0.0 outside of 
+the loop.
+
+5.) On line 5 there is an attempt to assign both 1 and 2 to the variable a. This is invalid since it can only hold one value 
+and the compiler would state that "2" is not a valid statement.
+
+6.) The output will be "size of array is: 8" because the array is not yet instantiated. Therefore it is not storing any additional 
+values.
+
+7.) The first function call is ok with taking a character regardless of the format as long as it is a character. The second one however 
+requires that there is a space before the character.
+
+8.) i : 10
+    sizeof(i++) is: 4
+    i : 10
+This is the case because sizeof() returns the size in bytes, so it is not affected by an increment of 1 in the value since it does 
+not affect the type of the variable. i remains 10 afterwards because of scope.
+
+9.)
+#include <stdio.h> 
+int main()
+{
+    int day,month,year;
+    printf("Enter the date (dd-mm-yyyy) format including -'s:");
+    scanf("%d-%d-%d",&day,&month,&year);
+    printf("The date you have entered is %02d-%02d-%d\n", day,month,year);
+    return 0;
+}
+
+10.) To fix this, replace the "i--" in for loop with "n--" this will itterate 20 times.
+
+11.) This produces a compiller error because a was never instantiated but the program 
+attempted to run operations on it.
+
+12.) The output is 8 because when checking the value of ++i the first time, both "(++i < 7)" 
+and "( i++/6)" need to be true, but since the first statement was wrong the second one was never 
+checked. The second time is "(++i <= 9)" where i became 8.
